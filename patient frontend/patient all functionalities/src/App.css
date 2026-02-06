@@ -1,0 +1,539 @@
+
+.mynavbar{
+    background-color: white;
+    border-bottom: 1px solid black;
+    height: 65px;
+}
+
+.logoitem{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.logoitem:hover{
+    color: #28CFFE;
+    
+}
+
+.navlistitems{
+    gap:80px;
+}
+
+.navlinkitems{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navlinkitems:hover{
+    color: #28CFFE;
+}
+
+.loginbtn{
+    background-color:#28CFFE;
+    color: white;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
+
+.logoutbtn{
+   background-color:#28CFFE;
+    color: white;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
+.registerbtn{
+    background-color:#28CFFE;
+    color: white;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
+
+/* Burger icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0,0.75)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Mobile offcanvas width */
+.offcanvas {
+  width: 260px;
+}
+
+.homePageBanner{
+  background: linear-gradient(135deg,#4facfe 0%,#00f2fe 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 408px;
+}
+
+.homePageBanner span{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.homePageBanner p{
+    line-height: 20px;
+}
+
+.searchBox input{
+    border: 1px solid grey;
+    
+}
+
+.searchBox select{
+    border: 1px solid grey;
+}
+
+.homePageSearchbtn{
+    background-color:#28CFFE;
+    color: white;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    border: none;   
+}
+
+.homePageBanner button{
+    width: 200px;
+    color: grey;
+    border-radius: 30px;
+    height: 39px;
+    border: none;
+}
+
+.homePageBanner2{
+   background: linear-gradient(135deg,#4facfe 0%,#00f2fe 100%);
+   color: white;
+   border-radius: 0.5rem;
+  width: 80%;
+  height: 400px;
+}
+
+.homePageBanner2 h3{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.homePageBanner2 button{
+    color: grey;
+    border: none; 
+    width: 150px;
+    border-radius: 30px;
+    height: 40px;
+}
+
+.homePageBanner2 button:hover{
+    background-color: white;
+    border: 1px solid #28CFFE   ;
+}
+
+.homepageHeadline span:first-child{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.homepageHeadline span:last-child{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+}
+
+.footerLinks{
+    text-decoration: none;
+    color: black;
+}
+
+.footerLinks:hover{
+    color:#28CFFE;
+}
+
+.footerContainer .row{
+    margin-top: 120px;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+.contactFormInput{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contactFormContainer{
+    width: 40%;
+    border: 1px solid grey;
+}
+
+.contactFormBtn{
+    background-color: #28CFFE;
+    color: white ;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+}
+
+.approachStmts{
+    font-size: 12px;
+}
+
+.userPic{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+   
+}
+
+.feedback-card p{
+  font-size: 18px;
+  
+}
+
+.loginFormContainer{
+  
+  width: 50%;
+  border-radius: 5px;
+}
+
+.loginFormContainer input{
+  border: 1px solid grey;
+}
+
+.loginPageLoginBtn{
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+  background-color: #28CFFE;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.regFormContainer{
+  
+  border-radius: 5px;
+  width: 70%;
+  
+}
+
+.regFormContainer input{
+   border: 1px solid grey;
+   width: 100%;
+   
+}
+
+.regFormContainer textarea{
+  border: 1px solid grey;
+   width: 350px;
+}
+
+.regFormContainer button{
+  border-radius: 5px;
+  width: 80%;
+  height: 35px;
+  background-color: #28CFFE;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.linebreaker{
+  display: none;
+}
+
+/* Patient feedback card for carousel */
+.feedback-card{
+  max-width: 680px;
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+ 
+  box-shadow: 0 8px 24px rgba(22, 28, 36, 0.06);
+}
+.feedback-text{
+  font-size: 1rem;
+  color: #222;
+  line-height: 1.5;
+}
+.feedback-name{
+  font-weight: 700;
+}
+@media (max-width: 576px){
+  .feedback-card{ max-width: 92%; padding: 1rem; }
+  .feedback-text{ font-size: .95rem; }
+}
+
+
+.h2Line{
+    color: white;
+}
+
+/* Carousel controls - dark icons for white backgrounds */
+.carousel-control-prev-icon {
+  /* left chevron (black) */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M11 1L5 8l6 7'/%3e%3c/svg%3e");
+  background-size: 1.4rem 1.4rem;
+}
+.carousel-control-next-icon {
+  /* right chevron (black) */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 1L11 8L5 15'/%3e%3c/svg%3e");
+  background-size: 1.4rem 1.4rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.06);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: rgba(0,0,0,0.12);
+}
+
+/* Position controls near centered card */
+.carousel {
+  position: relative;
+}
+
+/* default: vertically centered and positioned around the center point */
+#patientFeedbackCarousel .carousel-control-prev,
+#patientFeedbackCarousel .carousel-control-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1070;
+}
+
+/* Create space for arrows so they don't overlap content */
+#patientFeedbackCarousel .carousel-inner {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+
+.dashboardLinks{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.dashboardContainers{
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: rgb(220, 244, 245);
+  
+}
+
+.regFormContentDiv select{
+    border: 1px solid grey;
+    
+}
+
+.updateProfileBtn{
+  border-radius: 5px;
+  width: 20%;
+  height: 35px;
+  background-color: #28CFFE;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.inputBoxBorder{
+    border: 1px solid grey;
+  }
+
+.changePasswordFormContainer{
+    width: 40%;
+}
+
+.changePasswordBtn{
+  border-radius: 5px;
+  width: 20%;
+  height: 35px;
+  background-color: #28CFFE;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.createSlotBtn{
+  border-radius: 5px;
+  
+  height: 40px;
+  background-color: #28CFFE;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.slotFormContainer{
+  width: 30%;
+  border-radius: 5px;
+}
+
+.feedbackFormContainer{
+  border: 1px solid grey;
+  width: 45%;
+  border-radius: 5px;
+}
+
+.feedbackFormContainer textarea{
+  height: 150px;
+}
+
+.feedbackSubmitBtn{ 
+  height: 40px;
+  background-color: #28CFFE;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.bookApmtBtn{
+  background-color: #28CFFE;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  height: 40px;
+  
+}
+
+.doctorListContainer{
+  border-radius: 5px;
+}
+
+.apmtContainer{
+  border-radius: 5px;
+  width: 50%;
+}
+
+.bookNowBtn{
+  background-color: #28CFFE;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  width: 100px;
+}
+
+.paymentContainer{
+ 
+  width: 70%;
+  background-color: rgb(220, 244, 245);
+  border-radius: 5px;
+  
+}
+
+.payNowBtn{
+  background-color: #28CFFE;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  width: 90%;
+}
+
+.paymentContent{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cancelApmtBtn{
+  background-color: #28CFFE;
+  border-radius: 5px;
+  border: none;
+}
+
+.seeReviewsLink {
+ cursor: pointer;
+}
+
+.reviewStory{
+  width: 500px;
+  height: 100px;
+  border: 1px solid grey;
+}
+
+.reviewBtn{
+  background-color: #28CFFE;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+
+.slotCancelBtn{
+   background-color: #28CFFE;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+/* remove below content */
+.navLine{
+    color:#41A67E;
+}
+
+.mybtn{
+    background-color:#28CFFE;
+    width:200px;
+    height:50px;
+    border-radius:10px;
+    color: white;
+}
+
+.mydiv{
+    width:1000px;
+    height:410px;
+    background-color:#41A67E;
+    border-radius:10px;
+}
+/* Gradient option */
+.mydiv {
+    background: linear-gradient(135deg,#4facfe 0%,#00f2fe 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
