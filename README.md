@@ -138,7 +138,7 @@ CREATE DATABASE smart_healthcare_db;
 4. Configure database in application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/smart_healthcare_db
-spring.datasource.username=your_username
+spring.datasource.username=root
 spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
