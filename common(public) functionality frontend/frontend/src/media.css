@@ -1,0 +1,626 @@
+
+@media only screen and (min-width: 200px) and (max-width: 575px){
+
+    .logoitem{
+        font-size: 20px !important;
+    }
+    .mynavbar img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .mynavbar div{
+        gap: 1px !important;
+    }
+
+    .searchBar{
+        flex-direction: column;
+    }
+    
+    .searchBox{
+    flex-direction: column;
+    gap: 10px;
+
+    }
+
+   .searchBox input{
+    width: 100%;
+    
+    }
+
+   .homePageSearchbtn{
+    width: 150px !important;
+   }
+
+   .homePageBanner{
+    width: 100% !important ;
+    height: auto !important ;
+    padding-bottom: 0px !important  ;
+   }
+
+   .multi-Doctorsimg{
+    width: 270px !important ;
+    height: 200px !important ;
+   }
+
+    .homePageBanner span{
+    font-size: 25px !important ;
+    line-height: 30px !important ;
+    }
+
+    .homepageHeadline span:first-child{
+        font-size: 25px !important ;
+        margin-top: 10px !important;
+    }
+
+    .homepageHeadline span:last-child{
+        font-size: 16px !important ;
+    }
+
+    .homePageBanner2{
+        width: 90% !important  ;
+        height: auto !important;
+    }
+
+    .homePageBanner2 img{
+        width: 200px !important ;
+        height: 220px !important ;
+    }
+
+    .homePageBanner2 h3{
+        font-size: 25px !important;
+    }
+
+    .contactPageHeadline h2{
+        font-size: 25px !important ;
+    }
+
+    .contactFormContainer{
+        width: 100% !important  ;
+    }
+
+    .aboutPageHeadline{
+        font-size: 25px;
+    }
+
+    .patientImg{
+        width: 95% !important ;
+        height: auto !important ;
+    }
+
+    .approachIconName{
+        font-size: 20px !important ;
+    }
+
+    .feedback-card p{
+        font-size: 16px !important ;
+    }
+
+    .loginFormContainer{
+        width: 100% !important;
+    }
+
+    .loginFormHeading{
+        font-size: 21px !important;
+    }
+
+    .loginPageLoginBtn{
+        font-size: 18px !important;
+        width: 100px !important;
+    }
+
+    .loginErrmsg{
+        font-size: 17px !important;
+    }
+
+    .regFormContainer{
+        width: 100% !important;
+    }
+
+
+    .regFormContentDiv{
+        width: 90% !important;
+    }
+
+    .regFormHeading{
+        font-size: 21px;
+    }
+
+    .regFormContainer h5{
+        font-size: 18px;
+    }
+
+    .linebreaker{
+        display: block !important   ;
+    }
+
+    .regFormContainer textarea{
+    border: 1px solid grey;
+    width: 100% !important;
+    }
+
+    .dashboardLinks{
+        font-size: 16px !important;
+    }
+
+    .DashboardHeading{
+        font-size: 23px !important;
+    }
+
+    .Toastify__toast-container {
+        margin-left: 10px !important;
+        margin-top: 50px !important;
+        width: 90% !important;
+       
+    }
+
+   .patUpdateFormAddress{
+    width: 100% !important;
+   }
+
+   .updateProfileBtn{
+    width: 50% !important;
+    height: 60px !important ;
+   }
+
+   .changePasswordFormContainer{
+    width: 90% !important;
+   }
+
+   .changePasswordBtn{
+        width: 40% !important;
+    }
+
+    .slotFormContainer{
+        width: 80% !important;
+    }
+
+    .feedbackFormContainer{
+        width: 95% !important;
+    }
+
+    .doctorProfilePic{
+        width: 100px !important;
+        height: 100px !important;
+        
+    }
+
+    .apmtContainer{
+        width: 100% !important;
+    }
+    
+    .paymentContainer{
+        width: 100% !important;
+    }
+
+    .reviewStory{
+        width: 100% !important;
+    }
+
+    .ReviewMsgContainer{
+        width: 90% !important;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    
+    .searchBox input{
+    width: 170px !important;
+    
+    }
+    
+    .multi-Doctorsimg{
+    width: 350px !important ;
+    height: 250px !important ;
+   }
+
+   .homePageBanner span{
+    font-size: 27px !important ;
+    line-height: 30px !important ;
+    }
+
+    .homePageBanner{
+    width: 95% !important ;
+    height: auto !important ;
+    padding-bottom: 0px !important  ;
+   }
+
+   .homepageHeadline span:first-child{
+        font-size: 27px !important ;
+        margin-top: 10px !important;
+    }
+
+    .homepageHeadline span:last-child{
+        font-size: 16px !important ;
+    }
+
+    .homePageBanner2{
+        width: 90% !important  ;
+        height: auto !important;
+    }
+
+    .homePageBanner2 img{
+        width: 260px !important ;
+        height: 260px !important ;
+    }
+
+    .homePageBanner2 h3{
+        font-size: 25px !important;
+    }
+
+     .contactPageHeadline h2{
+        font-size: 27px !important ;
+    }
+
+    .contactFormContainer{
+        width: 85% !important  ;
+    }
+
+    .aboutPageHeadline{
+        font-size: 27px;
+    }
+
+    .patientImg{
+        width: 85% !important ;
+        height: auto !important ;
+    }
+
+     .approachIconName{
+        font-size: 22px !important ;
+    }
+
+    .feedback-card p{
+        font-size: 17px !important ;
+    }
+
+    .loginFormContainer{
+        width: 80% !important;
+    }
+
+    .loginFormHeading{
+        font-size: 22px !important;
+    }
+
+    .loginPageLoginBtn{
+        font-size: 18px !important;
+        width: 120px !important;
+    }
+
+    .loginErrmsg{
+        font-size: 17px !important;
+    }
+
+    .regFormContainer{
+        width: 90% !important;
+    }
+
+     .regFormContentDiv{
+        width: 40% !important;
+    }
+
+    .regFormHeading{
+        font-size: 23px;
+    }
+
+    .regFormContainer h5{
+        font-size: 18px;
+    }
+
+    .regFormContainer textarea{
+    border: 1px solid grey;
+    width: 100% !important;
+    }
+
+    .dashboardLinks{
+        font-size: 16px !important;
+    }
+
+    .DashboardHeading{
+        font-size: 25px !important;
+    }
+
+    .patUpdateFormAddress{
+    width: 100% !important;
+   }
+
+    .updateProfileBtn{
+    width: 30% !important;
+    height: 50px !important ;
+   }
+   .changePasswordFormContainer{
+    width: 70% !important;
+   }
+
+   .changePasswordBtn{
+        width: 30% !important;
+    }
+
+    .slotFormContainer{
+        width: 70% !important;
+    }
+
+     .feedbackFormContainer{
+        width: 85% !important;
+    }
+    .reviewStory{
+        width: 100% !important;
+    }
+
+    .ReviewMsgContainer{
+        width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    .multi-Doctorsimg{
+    width: 390px !important ;
+    height: 270px !important ;
+   }
+
+   .homePageBanner{
+    width: 92% !important ;
+    height: auto !important ;
+    padding-bottom: 0px !important  ;
+   }
+
+   .homePageBanner span{
+    font-size: 30px !important ;
+    line-height: 30px !important ;
+    
+    }
+
+    .homepageHeadline span:first-child{
+        font-size: 28px !important ;
+        margin-top: 10px !important;
+    }
+
+    .homepageHeadline span:last-child{
+        font-size: 18px !important ;
+    }
+
+     .homePageBanner2{
+        width: 92% !important  ;
+        height: auto !important;
+    }
+
+    .homePageBanner2 img{
+        width: 280px !important ;
+        height: 300px !important ;
+    }
+
+    .homePageBanner2 h3{
+        font-size: 28px !important;
+    }
+
+     .contactPageHeadline h2{
+        font-size: 27px !important ;
+    }
+
+    .contactFormContainer{
+        width: 80% !important  ;
+    }
+
+    .aboutPageHeadline{
+        font-size: 27px;
+    }
+
+    .patientImg{
+        width: 78% !important ;
+        height: auto !important ;
+    }
+
+     .approachIconName{
+        font-size: 25px !important ;
+    }
+
+     .feedback-card p{
+        font-size: 17px !important ;
+    }
+
+    .loginFormContainer{
+        width: 75% !important;
+    }
+
+    .loginFormHeading{
+        font-size: 23px !important;
+    }
+
+    .loginPageLoginBtn{
+        font-size: 18px !important;
+        width: 120px !important;
+    }
+
+    .loginErrmsg{
+        font-size: 17px !important;
+    }
+
+    .regFormContainer{
+        width: 85% !important;
+    }
+
+     .regFormContentDiv{
+        width: 40% !important;
+    }
+
+    .regFormHeading{
+        font-size: 23px;
+    }
+
+    .regFormContainer h5{
+        font-size: 19px;
+    }
+
+    .regFormContainer textarea{
+    border: 1px solid grey;
+    width: 100% !important;
+    }
+
+    .dashboardLinks{
+        font-size: 17px !important;
+    }
+
+    .DashboardHeading{
+        font-size: 27px !important;
+    }
+
+    .patUpdateFormAddress{
+    width: 90% !important;
+   }
+
+    .updateProfileBtn{
+    width: 25% !important;
+    height: 45px !important ;
+   }
+
+   .changePasswordFormContainer{
+    width: 50% !important;
+   }
+
+   .changePasswordBtn{
+        width: 30% !important;
+    }
+
+    .slotFormContainer{
+        width: 50% !important;
+    }
+
+     .feedbackFormContainer{
+        width: 75% !important;
+    }
+
+    .bookApmtBtn{
+        height: 60px !important;
+    }
+
+     .reviewStory{
+        width: 100% !important;
+    }
+
+    .ReviewMsgContainer{
+        width: 60% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .multi-Doctorsimg{
+    width: 450px !important ;
+    height: 320px !important ;
+   }
+
+   .homePageBanner span{
+    font-size: 33px !important ;
+    line-height: 32px !important ;
+    }
+
+    .homePageBanner{
+    width: 90% !important ;
+    height: auto !important ;
+    padding-bottom: 0px !important  ;
+   }
+
+    .homepageHeadline span:last-child{
+        font-size: 18px !important ;
+    }
+
+    .homePageBanner2{
+        width: 90% !important  ;
+        height: auto !important;
+    }
+
+    .homePageBanner2 img{
+        width: 280px !important ;
+        height: 350px !important ;
+    }
+
+    .homePageBanner2 h3{
+        font-size: 30px !important;
+    }
+
+    .contactPageHeadline h2{
+        font-size: 30px !important ;
+    }
+
+    .contactFormContainer{
+        width: 60% !important  ;
+    }
+
+    .aboutPageHeadline{
+        font-size: 35px;
+    }
+
+    .patientImg{
+        width: 450px !important ;
+        height: 300px !important ;
+    }
+
+     .approachIconName{
+        font-size: 27px !important ;
+    }
+
+    .loginFormContainer{
+        width: 60% !important;
+    }
+
+    .loginFormHeading{
+        font-size: 24px !important;
+    }
+
+    .loginPageLoginBtn{
+        font-size: 18px !important;
+        width: 140px !important;
+    }
+
+    .loginErrmsg{
+        font-size: 18px !important;
+    }
+
+    .regFormContainer{
+        width: 85% !important;
+    }
+
+     .regFormContentDiv{
+        width: 40% !important;
+    }
+
+    .regFormHeading{
+        font-size: 23px;
+    }
+
+    .regFormContainer h5{
+        font-size: 19px;
+    }
+
+    .regFormContainer textarea{
+    border: 1px solid grey;
+    width: 100% !important;
+    }
+
+     .navlistitems{
+        gap:30px !important;
+    }
+
+    .navbtns{
+        gap:10px !important;    
+    }
+
+    .DashboardHeading{
+        font-size: 30px !important;
+    }
+
+    .changePasswordBtn{
+        width: 30% !important;
+    }
+
+    .slotFormContainer{
+        width: 40% !important;
+    }
+
+     .feedbackFormContainer{
+        width: 55% !important;
+    }
+}
+
+
+
